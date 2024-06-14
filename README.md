@@ -1,8 +1,8 @@
-# team-010-79-hw4
+# Program Development
+This was a 3 person group project for our capstone course. During this project, we successfully developed a comprehensive real-time simulation of a drone delivery service. This involved creating an interactive system where users can schedule deliveries and observe the drones in action via a 3D visualization interface. More information below.
 
-Carlos Chasi-Mejia - chasi009
 Samuel Capece - capec016
-Jackson Brandt  - bran1281
+Teammates: Jackson and Carlos
 
 This project is a real time simulation of a drone delivery service where the user can schedule a package to be picked up by a drone and delivered at any point on a given map. Once the delivery has been scheduled, the user can then watch a 3D visualization of the package being delivered by the drone.
 
@@ -17,8 +17,6 @@ The boats in the simulation are created at set points marked by warehouses that 
 The notification system sends the user notifications in the 3D model whenever a package is picked up, dropped off, whenever a drone has recieved a delivery, or if a delivery is late. This feature is interesting as each step of the delivery needed to be considered for the notification system including if the drone needs to pick up or drop off a package from a warehouse or when a drone is going to pick up a package for another delivery. This adds to the existing work as in a more realistic scenario, a user might want to see the progress on a delivery or see if there were any issues with a drone delivering a package. This feature uses the observer design pattern but instead of many objects recieving a notification from a singular object, one object is observing many other objects. This feature does not require any input from the user beyond scheduling a delivery.
 
 For our sprint, it was great at dividing work among all of the group members immediately and providing a list of tasks that could be refered to if one forgot about what needed to be still done for the project. We did not however, consider each person's availability and had trouble refering to the list of tasks on the sprint afterwards. 
-
-Presentation link, goes over our implementation of the notification system as well as the boat and warehouse system: https://youtu.be/sl08jbJqBvc
 
 [Homework 4 extension diagram.pdf](https://github.umn.edu/umn-csci-3081-f23/team-010-79-hw4/files/1057/Homework.4.extension.diagram.pdf)
 
