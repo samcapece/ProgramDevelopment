@@ -1,8 +1,7 @@
 # Program Development
 This was a 3 person group project for our capstone course. During this project, we successfully developed a comprehensive real-time simulation of a drone delivery service. This involved creating an interactive system where users can schedule deliveries and observe the drones in action via a 3D visualization interface. More information below.
 
-Samuel Capece - capec016
-Teammates: Jackson and Carlos
+Samuel Capece, Jackson and Carlos
 
 This project is a real time simulation of a drone delivery service where the user can schedule a package to be picked up by a drone and delivered at any point on a given map. Once the delivery has been scheduled, the user can then watch a 3D visualization of the package being delivered by the drone.
 
